@@ -6,7 +6,7 @@ DefaultNamespace = "farmhash"
 
 [Configs.Debug.Win64]
 CLibType = "DynamicDebug"
-LibPaths = ["$(ProjectDir)\\libs\\debug\\farmhash-c.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\farmhashd.lib"]
 
 [Configs.Release.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\release\\farmhash-c.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\farmhash.lib"]
