@@ -5,8 +5,7 @@ Name = "farmhash-beef"
 DefaultNamespace = "farmhash"
 
 [Configs.Debug.Win64]
-CLibType = "DynamicDebug"
-LibPaths = ["$(ProjectDir)\\libs\\windows\\farmhashd.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\farmhash_d.lib"]
 
 [Configs.Release.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\windows\\farmhash.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\farmhash.lib"]
